@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -65,6 +65,10 @@ a:focus {
 
 .navbar-brand {
     font-weight: 700;
+}
+
+.navbar-brand img {
+    max-height: 15px;
 }
 
 .navbar-brand:focus {
@@ -127,7 +131,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/introbg.jpg) no-repeat bottom center scroll;
     background-color: #1F78D2;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -142,6 +146,7 @@ a:focus {
 
 .brand-heading {
     font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .intro-text {
@@ -259,9 +264,13 @@ a:focus {
     margin-top: 100px;
 }
 
+#logo {
+    margin-bottom: 70px;
+}
+
 @media(min-width:767px) {
     .content-section {
-        padding-top: 12%;
+        padding-top: 50px;
     }
 
     .download-section {
@@ -276,7 +285,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -300,6 +309,11 @@ a:focus {
 .btn-huge {
     padding: 25px;
     font-size: 26px;
+}
+
+.btn-onblue:hover {
+    background: #fff;
+    color: #1F78D2;
 }
 
 .banner-social-buttons {
