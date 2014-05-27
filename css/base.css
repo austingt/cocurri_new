@@ -26,7 +26,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -104,6 +104,10 @@ a:focus {
 }
 
 @media(min-width:767px) {
+    .navbar .navbar-brand img {
+        display: none;
+    }
+
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -122,13 +126,17 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+
+        .navbar-custom.top-nav-collapse img {
+        display: initial;
+    }
 }
 
 .intro {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     text-align: center;
     color: #fff;
     background: url(../img/introbg.jpg) no-repeat bottom center scroll;
@@ -144,9 +152,12 @@ a:focus {
     vertical-align: middle;
 }
 
+.intro-img {
+    max-height: 375px;
+}
+
 .brand-heading {
-    font-size: 40px;
-    text-shadow: 1px 1px 2px #000;
+    padding-bottom: 50px;
 }
 
 .intro-text {
@@ -156,7 +167,7 @@ a:focus {
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 0;
+
     }
 
     .brand-heading {
@@ -246,12 +257,9 @@ a:focus {
     padding-top: 100px;
 }
 
-#logo {
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
 
-#features {
+
+.whitebg {
     background: #fff;
     color: #1F78D2;
 }
@@ -357,4 +365,12 @@ opacity: 0;
 -ms-transition:opacity2.25slinear;
 -o-transition:opacity2.25slinear;
 transition:opacity2.25slinear;
+}
+
+.form-inline .form-control {
+    width: auto;
+    margin: 8px 2px;
+    border-color: #1F78D2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
