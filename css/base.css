@@ -374,3 +374,18 @@ transition:opacity2.25slinear;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+.img-responsive {
+    display: initial;
+}
+
+.logo {
+    padding-bottom: 15px;
+}
+
+.tagline {
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    text-transform: lowercase;
+}
