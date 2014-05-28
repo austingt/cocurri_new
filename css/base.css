@@ -219,19 +219,9 @@ a:focus {
     padding-top: 100px;
 }
 
-
-
 .whitebg {
     background: #fff;
     color: #1F78D2;
-}
-
-.whitebg h1, .whitebg h2, .whitebg h3 {
-    color: #F37020;
-}
-
-.whitebg .section-heading-spacer {
-    border-color: #1F78D2;
 }
 
 .whitebg .tagline {
@@ -359,6 +349,18 @@ transition:opacity2.25slinear;
     text-transform: none;
 }
 
-.section-heading-spacer  {
-    border-color: #F37020;
+#admins {
+    background: #EE8F1D;
+}
+
+#teachers {
+    background: #669B41;
+}
+
+#parents {
+    background: #1F78D2;
+}
+
+#students {
+    background: #F37020;
 }
