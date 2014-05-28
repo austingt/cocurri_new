@@ -51,6 +51,8 @@ a:focus {
     color: #176e61;
 }
 
+.container
+
 .light {
     font-weight: 300;
 }
@@ -179,46 +181,6 @@ a:focus {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 35px;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
 @-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
@@ -264,6 +226,18 @@ a:focus {
     color: #1F78D2;
 }
 
+.whitebg h1, .whitebg h2, .whitebg h3 {
+    color: #F37020;
+}
+
+.whitebg .section-heading-spacer {
+    border-color: #1F78D2;
+}
+
+.whitebg .tagline {
+    color: #1F78D2;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding: 50px 0px;
@@ -284,32 +258,22 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #FFF;
+    border: 1px solid #1F78D2;
     color: #FFF;
-    background-color: transparent;
+    background-color: #1F78D2;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #1F78D2;
+    border: 1px solid #F37020;
     outline: 0;
     color: #FFF;
-    background-color: #1F78D2;
+    background-color: #F37020;
 }
 
 .btn-huge {
     padding: 25px;
     font-size: 26px;
-}
-
-.btn-onblue:hover {
-    background: #fff;
-    color: #1F78D2;
-}
-
-.btn-onwhite {
-    border: 1px solid #1F78D2;
-    color: #1F78D2;
 }
 
 .banner-social-buttons {
@@ -375,6 +339,11 @@ transition:opacity2.25slinear;
     box-shadow: none;
 }
 
+.form-inline .form-control:focus {
+    border-color: #F37020;
+
+}
+
 .img-responsive {
     display: initial;
 }
@@ -387,5 +356,9 @@ transition:opacity2.25slinear;
     font-size: 38px;
     font-weight: 300;
     padding-bottom: 15px;
-    text-transform: lowercase;
+    text-transform: none;
+}
+
+.section-heading-spacer  {
+    border-color: #F37020;
 }
