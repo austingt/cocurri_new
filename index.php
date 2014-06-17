@@ -36,7 +36,8 @@
 
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="img/icons/app-144.png" />
-
+    <link href="https://plus.google.com/117107344211491516837" rel="publisher" />
+    
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -60,7 +61,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-
+    
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -110,11 +111,13 @@
 
                 <div class="row">
                     <div class="col-sm-5  col-sm-offset-1">
-                        <p class="text-left intro-text">CoCurri provides the tools needed for administrators, teachers, students, and parents to collaborate, interact, organize, track and measure students’ involvement in one central place. It’s secure, easy to learn, and it engages everyone involved!</p>
+                        <p class="text-left intro-text">CoCurri provides all the tools needed for school administrators, teachers, students, and parents to manage and track co-curricular activities in K-12.
+                        <br>
+                        <br>It’s secure, easy to learn, and engages everyone involved!</p>
                     </div>
 
                     <div class="col-sm-4 col-sm-offset-1">
-                        <h3 class="light cta-text">Looking to use CoCurri for<br>your K-12 school or district?<br>We're launching soon!</h3>
+                        <h3 class="light cta-text">Looking to try CoCurri?<br>We're launching soon!</h3>
 
                         <form class="form" role="form" method="POST" action="capture.php" name="CoCurri.com" >
                             <input type="hidden" value="cocurri-top" id="formLocation" name="formLocation" />
@@ -147,7 +150,7 @@
                         <h1>School Administrators</h1>
                         <hr class="section-heading-spacer">
                         <h3>Make it count!</h3>
-                        <p>Increase student participation in co-curricular activities and improve academic achievement.  CoCurri provides tools to oversee and manage all clubs, events, and student organizations from a school or district.  The application tracks all activities and integrate with the school information system to provide a holistic view of students‘ performance.</p>
+                        <p><strong>Increase student participation in co-curricular activities and improve academic achievement.</strong>  CoCurri provides tools to oversee and manage all clubs, events, and student organizations from a school or district.  The application tracks all activities and integrate with the school information system to provide a holistic view of students‘ performance.</p>
                     </div>
                     <div class="col-lg-6 col-sm-pull-6  col-sm-6">
                        <img class="img-responsive img-center" src="img/TrackAllStudentsActivitiesFromOnePlace.png" alt="Computers showing web browser with tool that is accessible from different devices.">
@@ -163,7 +166,7 @@
                         <h1>Teachers</h1>
                         <hr class="section-heading-spacer">
                         <h3>Save time & Get Students More Engaged</h3>
-                        <p>Most teachers have little time left in their day to manage student activities. CoCurri allows teachers to set up clubs, sign up students, assign roles, manage the roster, send calendar invitations, email, text, and track student hours all within a safe and easy platform available anytime, anywhere.</p>
+                        <p>Most teachers have little time left in their day to manage student activities. <strong>CoCurri allows teachers to set up clubs, sign up students, assign roles, manage the roster, send calendar invitations, email, text, and track student hours</strong> all within a safe and easy platform available anytime, anywhere.</p>
                     </div>  
                     <div class="col-lg-6 col-sm-6">
                          <img class="img-responsive" src="img/PaperworkMadeEasy.png" alt="Multiple forms with different things checked off.">
@@ -179,7 +182,7 @@
                         <h1>Students</h1>
                         <hr class="section-heading-spacer">
                         <h3>Make co-curricular experiences meaningful and manageable!</h3>
-                        <p>Student involvement in co-curricular activities has a significant impact on their ability to enter college, secure scholarships and become successful leaders.  CoCurri is interactive, collaborative and engaging and tracks all accomplishments and co-curricular involvement.</p>
+                        <p>Student involvement in co-curricular activities has a significant impact on their ability to enter college, secure scholarships and become successful leaders.  <strong>CoCurri is interactive, collaborative and engaging and tracks all accomplishments and co-curricular involvement.</strong></p>
                     </div>
                     <div class="col-lg-6 col-sm-pull-6 col-sm-6">
                          <img class="img-responsive" src="img/TrackYourActivitiesAndImproveCollegeAdmission.png" alt="Graduate with several icons showing different awards won, events attended, and clubs they have participated in.">
@@ -195,7 +198,7 @@
                         <h1>Parents</h1>
                         <hr class="section-heading-spacer">
                         <h3>Stay connected and Always in the know!</h3>
-                        <p>Involving children in co-curricular activities is a great way for them to explore a number of areas beyond academics. But, keeping track of all their activities, fees, forms and locations can be challenging.  CoCurri makes it simple for parents to manage all activities from one central platform so nothing is missed.</p>
+                        <p>Involving children in co-curricular activities is a great way for them to explore a number of areas beyond academics. But, keeping track of all their activities, fees, forms and locations can be challenging.  <strong>CoCurri makes it simple for parents to manage all activities from one central platform so nothing is missed.</strong></p>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                        <img class="img-responsive" src="img/ParentsStayConnectedWithKids.png" alt="Picture of calendar representing the ability to have all the events in one unified calendar.">
